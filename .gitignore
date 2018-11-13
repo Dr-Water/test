@@ -22,3 +22,4 @@ test/e2e-cypress/videos
 /docker/
 /dist/
 /dev-helpers/
+/swagger-config.yaml
