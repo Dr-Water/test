@@ -23,4 +23,6 @@ test/e2e-cypress/videos
 /dist/
 /dev-helpers/
 /swagger-config.yaml
-/test12
+test12
+
+/t2
