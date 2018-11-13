@@ -24,5 +24,6 @@ test/e2e-cypress/videos
 /dev-helpers/
 /swagger-config.yaml
 test12
+t2
+t3
 
-/t2
