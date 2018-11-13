@@ -1,0 +1,99 @@
+<!-- HTML for static distribution bundle build -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Swagger UI</title>
+    <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+    <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+    <style>
+      html
+      {
+        box-sizing: border-box;
+        overflow: -moz-scrollbars-vertical;
+        overflow-y: scroll;
+      }
+
+      *,
+      *:before,
+      *:after
+      {
+        box-sizing: inherit;
+      }
+
+      body
+      {
+        margin:0;
+        background: #fafafa;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="swagger-ui"></div>
+
+    <script src="./swagger-ui-bundle.js"> </script>
+    <script src="./swagger-ui-standalone-preset.js"> </script>
+    <script>
+      $(document).ready(function(){
+        $.ajax({
+          type: "get",
+          url: "urlData.json",
+          success: function (resp) {
+            urls = resp;
+            $.each(resp, function (index, item) {
+              $("#apiSelect").append("<option value='" + item.id + "'>" + item.name + "</option>");
+            });
+          }
+        });
+      });
+      function urlChange() {
+        var selectVal = $("#apiSelect").val();
+        $.each(urls,function (index,item) {
+          if(selectVal==urls[index].id){
+            $("#input_baseUrl").val(urls[index].url);
+          }
+        })
+      }
+
+      window.onload = function() {
+      // Begin Swagger UI call region
+      const ui = SwaggerUIBundle({
+        url: "https://petstore.swagger.io/v2/swagger.json",
+        dom_id: '#swagger-ui',
+        deepLinking: true,
+        presets: [
+          SwaggerUIBundle.presets.apis,
+          SwaggerUIStandalonePreset
+        ],
+        plugins: [
+          SwaggerUIBundle.plugins.DownloadUrl
+        ],
+        layout: "StandaloneLayout"
+      })
+      // End Swagger UI call region
+
+      window.ui = ui
+    }
+  </script>
+
+    <div id='header'>
+      <div class="swagger-ui-wrap">
+        <a id="logo" href="http://swagger.io"><img class="logo__img" alt="swagger" height="30" width="30" src="images/logo_small.png" /><span class="logo__title">swagger</span></a>
+        <select id="apiSelect" onchange="urlChange()">
+          <option>请选择api地址</option>
+        </select>
+        <form id='api_selector'>
+          <div class='input'><input placeholder="http://example.com/api" id="input_baseUrl" name="baseUrl" type="text"/></div>
+          <div id='auth_container'></div>
+          <div class='input'><a id="explore" class="header__btn" href="#" data-sw-translate>Explore</a></div>
+        </form>
+      </div>
+    </div>
+
+    <div id="message-bar" class="swagger-ui-wrap" data-sw-translate> </div>
+    <div id="swagger-ui-container" class="swagger-ui-wrap"></div>
+
+  </body>
+</html>
