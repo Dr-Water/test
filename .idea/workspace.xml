@@ -1,257 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37f91ee0-efb2-4ef2-b323-78b774501758" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.agignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.babelrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.dockerignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.npmignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/CONTRIBUTING.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cypress.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dev-helpers/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dev-helpers/oauth2-redirect.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon-16x16.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/favicon-32x32.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/oauth2-redirect.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/swagger-ui-bundle.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/swagger-ui-bundle.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/swagger-ui-standalone-preset.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/swagger-ui-standalone-preset.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/swagger-ui.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/swagger-ui.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/swagger-ui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/swagger-ui.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/urlData.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docker/configurator/helpers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docker/configurator/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docker/configurator/oauth.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docker/configurator/translator.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docker/configurator/variables.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docker/nginx.conf" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docker/run.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/SUMMARY.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/book.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/customization/custom-layout.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/customization/overview.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/customization/plug-points.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/customization/plugin-api.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/development/scripts.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/development/setting-up.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/swagger-ui2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/images/swagger-ui3.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/usage/configuration.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/usage/cors.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/usage/deep-linking.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/usage/installation.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/usage/limitations.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/usage/oauth2.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/docs/usage/version-detection.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/make-webpack-config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/.release-it.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/check-for-breaking-changes.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/release/get-changelog.sh" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/snapcraft.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/.eslintrc" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/brace-snippets-yaml.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/app.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/array-model.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/auth/api-key-auth.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/auth/auth-item.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/auth/authorization-popup.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/auth/authorize-btn.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/auth/authorize-operation-btn.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/auth/auths.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/auth/basic-auth.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/auth/error.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/auth/oauth2.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/clear.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/content-type.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/curl.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/debug.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/deep-link.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/enum-model.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/errors.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/execute.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/footer.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/headers.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/highlight-code.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/info.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/jump-to-path.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/layout-utils.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/layouts/base.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/layouts/xpane.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/live-response.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/model-collapse.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/model-example.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/model-wrapper.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/model.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/models.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/object-model.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/online-validator-badge.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/operation-extension-row.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/operation-extensions.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/operation-summary-method.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/operation-summary-path.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/operation-summary.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/operation-tag.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/operation.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/operations.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/overview.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/param-body.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/parameter-extension.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/parameter-include-empty.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/parameter-row.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/parameters.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/primitive-model.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/property.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/providers/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/providers/markdown.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/response-body.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/response.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/responses.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/schemes.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/svg-assets.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/system-wrapper.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/try-it-out-button.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/version-pragma-filter.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/components/version-stamp.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/containers/OperationContainer.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/containers/authorize-btn.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/containers/filter.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/containers/info.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/containers/schemes.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/curlify.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/json-schema-components.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/oauth2-authorize.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/all.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/auth/actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/auth/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/auth/reducers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/auth/selectors.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/auth/spec-wrap-actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/configs/actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/configs/helpers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/configs/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/configs/reducers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/configs/selectors.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/configs/spec-actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/deep-linking/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/deep-linking/helpers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/deep-linking/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/deep-linking/layout.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/deep-linking/operation-tag-wrapper.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/deep-linking/operation-wrapper.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/download-url.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/err/actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/err/error-transformers/README.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/err/error-transformers/hook.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/err/error-transformers/transformers/not-of-type.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/err/error-transformers/transformers/parameter-oneof.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/err/error-transformers/transformers/strip-instance.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/err/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/err/reducers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/err/selectors.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/filter/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/filter/opsFilter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/layout/actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/layout/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/layout/reducers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/layout/selectors.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/logs/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/auth-extensions/wrap-selectors.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/components/callbacks.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/components/http-auth.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/components/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/components/operation-link.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/components/operation-servers.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/components/request-body-editor.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/components/request-body.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/components/servers-container.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/components/servers.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/helpers.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/reducers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/selectors.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/spec-extensions/selectors.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/spec-extensions/wrap-selectors.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/wrap-components/auth-item.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/wrap-components/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/wrap-components/json-schema-string.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/wrap-components/markdown.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/wrap-components/model.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/wrap-components/online-validator-badge.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/wrap-components/parameters.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/oas3/wrap-components/version-stamp.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/on-complete/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/samples/fn.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/samples/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/spec/actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/spec/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/spec/reducers.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/spec/selectors.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/spec/wrap-actions.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/swagger-js/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/util/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/view/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/plugins/view/root-injects.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/presets/apis.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/presets/base.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/proptypes.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/system.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/utils.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/core/window.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/img/logo_small.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/img/rolling-load.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/plugins/add-plugin.md" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/plugins/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/plugins/topbar/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/plugins/topbar/logo_small.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/plugins/topbar/topbar.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/polyfills.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/standalone/index.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/standalone/layout.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_authorize.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_buttons.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_colors.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_errors.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_form.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_information.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_layout.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_mixins.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_modal.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_models.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_servers.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_split-pane-mode.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_table.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_topbar.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_type.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/_variables.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/style/main.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/swagger-config.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/webpack-dist-bundle.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/webpack-dist-standalone.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/webpack-dist.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/webpack-hot-dev-server.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/webpack-watch.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/webpack.check.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/webpack.dist-style.config.js" afterPath="" />
-    </list>
+    <list default="true" id="37f91ee0-efb2-4ef2-b323-78b774501758" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -261,11 +11,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test12" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test12" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test12">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
               <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="xml.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xml.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -285,6 +45,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/test12" />
+        <option value="$PROJECT_DIR$/xml.txt" />
       </list>
     </option>
   </component>
@@ -308,7 +69,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="width" value="1934" />
     <option name="height" value="1038" />
@@ -469,7 +230,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543376177173</updated>
-      <workItem from="1543376178721" duration="1967000" />
+      <workItem from="1543376178721" duration="2092000" />
     </task>
     <task id="LOCAL-00001" summary="测试">
       <created>1543376244310</created>
@@ -489,10 +250,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1967000" />
+    <option name="totallyTimeSpent" value="2092000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1934" height="1038" extended-state="1" />
+    <frame x="-8" y="0" width="1934" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -506,7 +268,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -557,6 +319,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
           <folding />
         </state>
       </provider>
